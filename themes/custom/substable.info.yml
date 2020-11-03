@@ -1,0 +1,17 @@
+name: Substable
+type: theme
+description: This is a substable sub theme of stable
+core: 8.x
+# Defines the base theme
+base theme: stable
+# Defines libraries group in which we can add css/js.
+libraries:
+  - substable/global-styling
+# Regions
+regions:
+  header: Header
+  content: Content
+  sidebar_left: 'Sidebar - Left'
+  sidebar_right: 'Sidebar - Right'
+  footer: Footer
+  
